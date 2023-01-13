@@ -18,7 +18,7 @@ h2,
 }
 
 h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
   line-height: 34px;
 }
@@ -27,4 +27,13 @@ h4 {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
+}
+
+p {
+  font-size: 1.6rem;
+  color: #a2a2a2;
+}
+
+.hr_tag {
+  border: 1px solid #d1d1d1;
 }

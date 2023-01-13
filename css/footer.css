@@ -1,0 +1,11 @@
+footer {
+  min-height: 9rem;
+  background-color: #562eff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  color: #fff;
+}

@@ -6,6 +6,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 5rem;
 }
 
 .section_title {
@@ -24,6 +25,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 3rem;
+  margin-bottom: 3rem;
 }
 
 .top_players div {
@@ -34,4 +36,84 @@ main {
 
 .top_players div img {
   height: 5.6rem;
+}
+
+.top_blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem 5rem;
+}
+
+.blog {
+  display: flex;
+  gap: 2rem;
+  padding-right: 3rem;
+}
+
+.blog img {
+  height: 11.7rem;
+}
+
+.blog .author {
+  color: #562eff;
+}
+
+/* course portion */
+.course_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+}
+
+.course_card {
+  padding: 1.1rem;
+  box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+}
+
+.course_image {
+  /* height: 10.4rem; */
+  width: 100%;
+}
+
+.course_card h3 {
+  width: fit-content;
+}
+
+.course_card .instructor {
+  color: #ed6b4f;
+}
+
+.rating_duration {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 1rem 0;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.rating p {
+  display: inline-block;
+  padding-left: 1rem;
+}
+
+.yellow_star {
+  color: #ffc014;
+}
+
+.gray_star {
+  color: #aeaeae;
+}
+
+.duration {
+  border-radius: 50px;
+  color: #ff4a60;
+  background-color: #ffe4e8;
+  padding: 0 5px;
+  display: inline-block;
 }
