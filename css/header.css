@@ -1,0 +1,51 @@
+header {
+  background-color: #562eff;
+}
+
+.header_container {
+  max-width: 90rem;
+  height: 9rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_left {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+
+.header_left img {
+  height: 5rem;
+}
+
+.header_left h2 {
+  color: #fff;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.header_right .profile_image {
+  height: 5rem;
+}
+
+.header_right ul {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  color: #fff;
+  list-style: none;
+}
+
+.header_right ul li {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}

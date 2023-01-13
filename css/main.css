@@ -1,0 +1,37 @@
+main {
+  background-color: #f3f1ff;
+  min-height: 100vh;
+  padding: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section_title {
+  color: #562eff;
+  padding: 3rem 0;
+}
+
+.container {
+  width: 90rem;
+  padding: 0 3rem 3rem 3rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.top_players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3rem;
+}
+
+.top_players div {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.top_players div img {
+  height: 5.6rem;
+}
